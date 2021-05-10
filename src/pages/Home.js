@@ -3,11 +3,11 @@ const Home = (newsList) => {
     <div class="main-home">
       <nav>
         <ul class="nav">
-          <li><a href="/">All</a></li>
-          <li><a href="/news_scrapping/#/category/physics">Fisica</a></li>
-          <li><a href="/news_scrapping/#/category/astronomy">Astronomia</a></li>
-          <li><a href="/news_scrapping/#/category/neuroscience">neurociencia</a></li>
-          <li><a href="/news_scrapping/#/category/anthropology">Antropologia</a></li>
+          <li><a href="https://bostjanrivera.github.io/news_scrapping">All</a></li>
+          <li><a href="https://bostjanrivera.github.io/news_scrapping/#/category/physics">Fisica</a></li>
+          <li><a href="https://bostjanrivera.github.io/news_scrapping/#/category/astronomy">Astronomia</a></li>
+          <li><a href="https://bostjanrivera.github.io/news_scrapping/#/category/neuroscience">neurociencia</a></li>
+          <li><a href="https://bostjanrivera.github.io/news_scrapping/#/category/anthropology">Antropologia</a></li>
         </ul>
       </nav>
       <section class="news">
