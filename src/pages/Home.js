@@ -16,7 +16,7 @@ const Home = (newsList) => {
           <div class="notice-card">
             <img src="${news.image}" alt="notice image">
             <div class="notice-card_text">
-              <a href="/#/${news._id.$oid}">${news.title}</a>
+              <a href="https://bostjanrivera.github.io/news_scrapping/#/${news._id.$oid}">${news.title}</a>
               <p>${news.content} </p>
               <h4 class="notice-card--tag">${news.tag}</h4>
             </div>
