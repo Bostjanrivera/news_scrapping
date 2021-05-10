@@ -3,11 +3,11 @@ const Home = (newsList) => {
     <div class="main-home">
       <nav>
         <ul class="nav">
-          <li><a href="/">All</a></li>
-          <li><a href="/#/category/physics">Fisica</a></li>
-          <li><a href="/#/category/astronomy">Astronomia</a></li>
-          <li><a href="/#/category/neuroscience">neurociencia</a></li>
-          <li><a href="/#/category/anthropology">Antropologia</a></li>
+          <li><a href="//news_scrapping">All</a></li>
+          <li><a href="//news_scrapping/#/category/physics">Fisica</a></li>
+          <li><a href="/news_scrapping/#/category/astronomy">Astronomia</a></li>
+          <li><a href="/news_scrapping/#/category/neuroscience">neurociencia</a></li>
+          <li><a href="/news_scrapping/#/category/anthropology">Antropologia</a></li>
         </ul>
       </nav>
       <section class="news">
@@ -16,7 +16,7 @@ const Home = (newsList) => {
           <div class="notice-card">
             <img src="${news.image}" alt="notice image">
             <div class="notice-card_text">
-              <a href="/#/${news._id.$oid}">${news.title}</a>
+              <a href="/news_scrapping/#/${news._id.$oid}">${news.title}</a>
               <p>${news.content} </p>
               <h4 class="notice-card--tag">${news.tag}</h4>
             </div>
