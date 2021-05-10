@@ -18,7 +18,7 @@ Resources.getAllNews = async () => {
     }
 };
 Resources.getNewsForHome = async () => {
-    const url = `${BASE_URL}/news?offset=401`;
+    const url = `${BASE_URL}/new?offset=10&per_page=50`;
 
     try {
         const response = await axios.get(url);
