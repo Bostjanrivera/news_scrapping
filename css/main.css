@@ -19,7 +19,12 @@ nav {
   font-size: 1.4rem;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
+.nav li a:hover {
+  text-decoration: underline;
+}
+
 .notice_container {
   display: grid;
   grid-template-columns: 1fr;
@@ -78,6 +83,16 @@ nav {
   line-height: 1.6;
   text-align: justify;
 }
+.news--tag, .notice-card--tag {
+  color: #6e6e6e;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.filter {
+  display: none;
+}
+
 .intro {
   position: absolute;
   visibility: hidden;
