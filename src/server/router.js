@@ -1,5 +1,7 @@
 import Header from '../templates/Header';
 
+import { searchFilters } from '../events/Events'
+
 import { toRender } from '../utils/RouterUtils';
 
 import Footer from '../templates/Footer'
