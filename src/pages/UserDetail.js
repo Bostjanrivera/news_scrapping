@@ -5,7 +5,7 @@ const Resources = require('../resources/Resources');
 
 const UserDetail = async () => {
 
-    const response = await Resources.getAllNews();
+    const response = await Resources.getNewsForHome();
     const news = response;
     // console.log(news)
     if (!news) {

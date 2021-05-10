@@ -7,9 +7,10 @@ const ViewNew = async () => {
     <div class="news-main">
       <h1 class="news--title">${news.title} </h1>
       <figure>
-        <img src="${news.image} " alt="news picture">
+        <img src="${news.image}" alt="news picture">
       </figure>
       <p class="news--content">${news.content} </p>
+      <h4 class="news--tag">tag: ${news.tag} </h4>
     </div>
   `
   return view

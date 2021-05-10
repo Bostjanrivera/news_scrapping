@@ -1,4 +1,9 @@
-const Home = (newsList) => {
+import Resources from '../resources/Resources'
+
+const ViewCategory = async () => {
+  const category = location.hash.slice(1).toLocaleLowerCase().split('/')[2]
+  const newsList = await Resources.getNewsByTag(category)
+  console.log(newsList)
   const view = `
     <div class="main-home">
       <nav>
@@ -7,7 +12,7 @@ const Home = (newsList) => {
           <li><a href="/#/category/physics">Fisica</a></li>
           <li><a href="/#/category/astronomy">Astronomia</a></li>
           <li><a href="/#/category/neuroscience">neurociencia</a></li>
-          <li><a href="/#/category/anthropology">Antropologia</a></li>
+          <li><a href="/#/category/antropologhy">Antropologia</a></li>
         </ul>
       </nav>
       <section class="news">
@@ -33,4 +38,4 @@ const Home = (newsList) => {
   return view;
 }
 
-export default Home;
+export default ViewCategory;

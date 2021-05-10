@@ -4,13 +4,14 @@ import Error404 from '../pages/Error404';
 const getHash = () => {
     if(location.hash.slice(1).toLocaleLowerCase().split('/')[1] == 'category') {
         return location.hash.slice(1).toLocaleLowerCase().split('/')[1]
-    }else {
+    } else {
         return location.hash.slice(1).toLocaleLowerCase().split('/')[1] || '/';
     }
 }
 
+
 const resolveRoute = (hash) => {
-    const route = hash === '/' ? hash : hash === 'category' ? location.hash.slice(1).toLocaleLowerCase().split('/')[2] : '/id';
+    const route = hash === '/' ? hash : hash === 'category' ? '/category/:name'  :'/:id';
     return route;
 }
 
