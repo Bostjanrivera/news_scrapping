@@ -1,23 +1,18 @@
 {
-  "name": "ssip_frontend",
+  "name": "SC_News",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://bostjanrivera.github.io/news_scrapping/",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist ./src/css",
     "build": "webpack --mode production",
     "start": "webpack serve --open --mode development"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edanfesi/ssip_frontend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edanfesi/ssip_frontend/issues"
-  },
-  "homepage": "https://github.com/edanfesi/ssip_frontend#readme",
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "babel-loader": "^8.2.2",
@@ -29,6 +24,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "gh-pages": "^3.1.0"
   }
 }
