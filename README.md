@@ -44,6 +44,9 @@ estilos de desktop: `css/desktop.css`
 - Python
 - Scrappy (https://docs.scrapy.org/en/latest/index.html#)
 - Zyte (https://www.zyte.com/)
+- 
+###  API Consumida
+- documentacion (https://github.com/Santiagonk/API_News_Flask)
 
 # CONSIDERACIONES
 Esta API pertenece al primer proyecto de PLATZI MASTER Cohort 7. Para su realización se tomaron los siguientes cursos de la plataforma Platzi:
