@@ -1,9 +1,8 @@
 import Resources from '../resources/Resources'
 
 const ViewCategory = async () => {
-  const category = location.hash.slice(1).toLocaleLowerCase().split('/')
-  const newsList = await Resources.getNewsByTag(category[2])
-  console.log(newsList)
+  const category = location.hash.slice(1).toLocaleLowerCase().split('/');
+  const newsList = await Resources.getNewsByTag(category[2]);
   const view = `
     <div class="main-home">
       <nav>

@@ -8,5 +8,4 @@ const routes = {
     '/:id': ViewNew,
 };
 
-
 export default routes;

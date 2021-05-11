@@ -1,7 +1,5 @@
 import Header from '../templates/Header';
-
 import { toRender } from '../utils/RouterUtils';
-
 import Footer from '../templates/Footer'
 
 const router = async () => {
