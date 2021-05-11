@@ -1,15 +1,11 @@
 # SC News a Web Scrappping WebPage
 El usuario puede seleccionar por categorías en específicas o por todas las categorías, además cuenta con un buscador de noticias el cual es filtrado por categorías, titulares o descripción de la noticia.
 
-# Documentación de consumo de la API
+# Consumo de la API
 
 El proyecto esta diseñado de la forma más simple posible, se utilizò CSS puro sin preprocesadores y se aplicò una metodología de componentes para reutilizar la mayor cantidad de código posible.
 
 metodologia: Single Page Application (SPA)
-
-### Información API Consumida
-
-La Información de la API consumida se evidencia en la sección de BACKEND
 
 ### Ubicación dentro del proyecto
 
