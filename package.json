@@ -11,10 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/edanfesi/ssip_frontend/issues"
-  },
-  "homepage": "https://github.com/edanfesi/ssip_frontend#readme",
+  "homepage": "https://bostjanrivera.github.io/news_scrapping/",
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "babel-loader": "^8.2.2",
