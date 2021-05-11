@@ -1,6 +1,9 @@
 main {
   padding: 0 20%;
 }
+.nav li {
+  padding: 10px 15px;
+}
 .notice_container {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -9,7 +12,7 @@ main {
   max-height: 300px;
 }
 .notice-card:first-child {
-  margin-top: 50px;
+  margin-top: 30px;
   grid-column: 1 / 4;
   max-height: 600px;
 }

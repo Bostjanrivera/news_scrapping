@@ -8,12 +8,20 @@ header h1 {
 
 nav {
   width: 100%;
-  height: 50px;
+  height: auto;
+  margin-bottom: 10px;
 }
 .nav {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   list-style: none;
+}
+.nav li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #eeeeee;
+  border-radius: 10px;
 }
 .nav li a {
   font-size: 1.4rem;
@@ -25,6 +33,17 @@ nav {
   text-decoration: underline;
 }
 
+.category--title {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #2e2e2e;
+  font-weight: lighter;
+}
+.category--title span {
+  color: black;
+  font-weight: 500;
+}
+
 .notice_container {
   display: grid;
   grid-template-columns: 1fr;
@@ -33,15 +52,28 @@ nav {
   height: auto;
 }
 .notice-card {
+  display: flex;
   width: 100%;
   height: auto;
-  max-height: 400px;
+  max-height: 440px;
+  flex-direction: column;
   overflow: hidden;
-  padding: 0 10px;
-  text-align: center;
 }
-.notice-card img {
+.notice-card figure {
   width: 100%;
+  margin-bottom: 10px;
+}
+.notice-card figure img {
+  width: 100%;
+  max-height: 150px;
+  background-position: center;
+  border-radius: 10px;
+}
+.notice-card:first-child figure img{
+  max-height: none;
+}
+.notice-card_text {
+  padding-bottom: 10px;
 }
 .notice-card_text a {
   text-decoration: none;
@@ -53,18 +85,14 @@ nav {
 }
 .notice-card_text p {
   margin-top: 10px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
   color: #6e6e6e;
 }
-.footer {
-  display: flex;
-  width: 100%;
-  height: 100px;
-  margin-top: 50px;
-  font-size: 1.8rem;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid #2e2e2e ;
+.notice-card_text .notice-card--date {
+  margin-top: 10px;
+  color: #4d4d4d;
+  font-size: 1.2rem;
 }
 .news-main {
   padding: 10px;
@@ -73,10 +101,12 @@ nav {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 20px;
+  text-align: center;
 }
 .news-main figure img {
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 10px;
 }
 .news--content {
   font-size: 1.8rem;
@@ -101,7 +131,7 @@ nav {
   height: 100vh;
   background-color: white;
   animation-name: intro-bg;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 .intro--text {
   position: relative;
@@ -113,8 +143,9 @@ nav {
 }
 @keyframes intro {
   0% {top: 0;transform: translateY(-200%);}
-  33% {top: 50%;transform: translateY(-50%);}
-  66% {top: 50%;transform: translateY(-50%);}
+  30% {top: 50%;transform: translateY(-50%); font-size: 5rem;}
+  50% {font-size: 6rem; font-weight: 900;}
+  70% {top: 50%;transform: translateY(-50%); font-size: 5rem;}
   100% {top: 0;transform: translateY(-200%);}
 }
 @keyframes intro-bg {
@@ -122,6 +153,18 @@ nav {
     visibility: visible;
   }
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #2e2e2e ;
+}
+
 @media (min-width: 500px) {
   main {
     padding: 0 15%;
