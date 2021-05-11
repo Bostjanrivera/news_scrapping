@@ -56,7 +56,7 @@ los comandos se encuentran en la carpeta `cypress/suppport/commands.js`
 
 #### comandos usados:
 - `seeCategory` Revisa si existe la categorà indicada.
-- `seeIndividualNews` Revisa si puede ver la primera noticia de la pagina dond està.
+- `seeIndividualNews` Revisa si puede ver la primera noticia de la pagina donde està.
 
 #### Modo de uso:
 los comandos y las instrucciones se encuentran en `cypress/integration/news_app.spec.js`
