@@ -96,6 +96,6 @@ Para probarlo en github pages (se debe cambiar con el beforeeach que se encuentr
 - documentacion: https://github.com/Santiagonk/API_News_Flask
 
 # CONSIDERACIONES
-Esta API pertenece al primer proyecto de PLATZI MASTER Cohort 7. Para su realización se tomaron los siguientes cursos de la plataforma Platzi:
+Esta API pertenece al cuarto proyecto de PLATZI MASTER Cohort 7. Para su realización se tomaron los siguientes cursos de la plataforma Platzi:
 - [Curso de Single Page Application con Vanilla JavaScript](https://platzi.com/clases/spa-javascript/ "Curso de Single Page Application con Vanilla JavaScript")
 - [Curso definitivo de HTML y CSS](https://platzi.com/clases/html-css/ "Curso definitivo de HTML y CSS")
