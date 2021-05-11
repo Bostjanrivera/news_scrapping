@@ -42,7 +42,7 @@ estilos de desktop: `css/desktop.css`
 
 ### Proyecto back-end desarrollado con:
 - Python
-- Scrappy (https://docs.scrapy.org/en/latest/index.html#)
+- (https://docs.scrapy.org/en/latest/index.html# "Scrappy")
 - Zyte (https://www.zyte.com/)
 - 
 ###  API Consumida
