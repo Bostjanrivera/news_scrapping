@@ -131,7 +131,7 @@ nav {
   height: 100vh;
   background-color: white;
   animation-name: intro-bg;
-  animation-duration: 1s;
+  animation-duration: 3s;
 }
 .intro--text {
   position: relative;
