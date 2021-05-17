@@ -2,7 +2,6 @@ import Resources from '../resources/Resources'
 const ViewNew = async () => {
   const hash =location.hash.slice(1).toLocaleLowerCase().split('/')[1]
   const news = await Resources.getNewById(hash)
-  console.log(news)
   const view = `
     <div class="news-main">
       <div class="news-main__header">
@@ -12,6 +11,7 @@ const ViewNew = async () => {
       </div>
       <figure>
         <img src="${news.image}" alt="news picture">
+        <p>${news.image_content} </p>
       </figure>
       <div class="news-content">
         <p class="news-content-text">${news.content} </p>
