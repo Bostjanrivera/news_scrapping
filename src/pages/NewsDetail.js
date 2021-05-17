@@ -2,7 +2,7 @@ import Error404 from './Error404';
 import Home from "./Home"
 const Resources = require('../resources/Resources');
 
-const UserDetail = async () => {
+const NewsDetail = async () => {
     const response = await Resources.getNewsForHome();
     const news = response;
     if (!news) {
@@ -14,4 +14,4 @@ const UserDetail = async () => {
     return view;
 }
 
-export default UserDetail;
+export default NewsDetail;

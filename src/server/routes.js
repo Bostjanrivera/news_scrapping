@@ -1,9 +1,9 @@
-import UserDetail from '../pages/UserDetail';
+import NewsDetail from '../pages/NewsDetail';
 import ViewNew from '../pages/ViewNew';
 import ViewCategory from '../pages/ViewCategory'
 
 const routes = {
-    '/': UserDetail,
+    '/': NewsDetail,
     '/category/:name': ViewCategory,
     '/:id': ViewNew,
 };

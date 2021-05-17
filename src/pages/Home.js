@@ -1,4 +1,5 @@
 const Home = (newsList) => {
+  console.log(newsList)
   const view = `
     <div class="main-home">
       <nav>
@@ -13,7 +14,7 @@ const Home = (newsList) => {
       <h1 class="category--title">All News</h1>
       <section class="news">
         <div class="notice_container">
-          ${newsList.map(news => `
+          ${newsList.filter(news =>  news.title != null).map(news => `
           <div class="notice-card">
             <figure>
               <img src="${news.image}" alt="notice image">
